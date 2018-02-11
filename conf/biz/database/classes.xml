@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classes>
+    	<!--
+        <package name="demo.ddl">
+            <class name="Demo" comment="测试" />
+        </package>
+        -->
+        
+	<package name="modules.apply.ddl">
+    	<class name="PartyApplyInfoDDL" comment="party报名信息" />
+    </package>
+    
+    <package name="modules.location.ddl">
+    	<class name="MasterLocationDDL" comment="party位置信息" />
+    </package>
+    
+    <package name="modules.party.ddl">
+    	<class name="PartyDDL" comment="party信息" />
+    </package>
+    
+    <package name="modules.photo.ddl">
+    	<class name="MasterPhotoDDL" comment="party图片信息" />
+    </package>
+    
+    <package name="modules.record.ddl">
+    	<class name="MasterRecordDDL" comment="party录音信息" />
+    </package>
+    
+    <package name="modules.user.ddl">
+    	<class name="WxUserDDL" comment="party用户信息" />
+    </package>
+    
+   	<package name="modules.token.ddl">
+    	<class name="WXAccessTokenDDL" comment="" />
+    </package>
+    
+    <package name="modules.message.ddl">
+    	<class name="MessageDDL" comment="" />
+    </package>
+    
+    <package name="modules.game.ddl">
+    	<class name="GameRoomDDL" comment="" />
+    </package>
+   	
+    <package name="modules.spygame.ddl">
+    	<class name="SpyGameJuDDL" comment="" />
+    	<class name="SpyGameJuMemberDDL" comment="" />
+    	<class name="SpyGameRoundDDL" comment="" />
+    </package> 
+    
+   	<package name="modules.face.ddl">
+    	<class name="FaceVerifyDDL" comment="" /> 
+    </package>
+    
+    <package name="modules.comments.ddl">
+    	<class name="CommentDDL" comment="" /> 
+    </package>
+</classes>

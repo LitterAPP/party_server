@@ -32,8 +32,8 @@ public class Face  extends Controller{
 			renderJSON(RtnUtil.returnFail("登录失效"));
 		}
 		
-		 String accessKey = "HW77gOwWnQiwQIuB"; //用户ak
-	     String secretKey = "0N36kSmuIapg7352cX23fOGxUyXMoq"; // 用户ak_secret
+		 String accessKey = ""; //用户ak
+	     String secretKey = ""; // 用户ak_secret
 	     String url = "https://dtplus-cn-shanghai.data.aliyuncs.com/face/verify";
  	     String body = "{\"type\": \"0\", \"image_url_1\":\""+myAvatar+"\",\"image_url_2\":\""+taAvatar+"\"}";
 		try {
